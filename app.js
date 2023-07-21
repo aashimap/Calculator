@@ -35,9 +35,10 @@ AC.addEventListener("click", () => {
   displayBox.value = "";
   currentValue = "";
   lastValue = "";
+  currentOperation = "";
 });
 
-const sign = document.getElementById("-");
+const sign = document.getElementById("-ve");
 
 sign.addEventListener("click", () => {
   currentValue = -Number(displayBox.value);
